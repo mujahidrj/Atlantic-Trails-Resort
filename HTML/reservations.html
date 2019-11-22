@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title> Reservations </title>
+    <link rel=stylesheet type="text/css" href="../CSS/atlantic.css" />
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Atlantic Trails Resort</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="accommodations.html">Accommodations</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="#">Entertainment&nbsp; Schedule</a></li>
+            </ul>
+
+            <div id="contact">
+                <span class="resort">Atlantic Trails Resort</span> <br>
+                1227 Atlantic Trails Way <br>
+                Cliffside, Maine 04226 <br><br>
+                888-555-5555
+            </div>
+
+            <img class="navimage" src="../Images/harbor1.png" alt="Overlooking view of harbor" height="215" width="190">
+        </nav>
+
+        <main>
+            <h2>Reservations at Atlantic Trails Resort</h2>
+            <h3>Contact Us Today To Plan Your Next Vacation</h3>
+            <p>Required fields are marked with an asterisk *</p>
+
+            <form method="post" action="http://cs.ucf.edu/~markl/atlanticformreport.php">
+                <fieldset>
+                    <ul>
+                        <li>
+                            <label for="firstname">*First Name:</label>
+                            <input type="text" id="firstname" name="myFName" required="required" autofocus />
+                        </li>
+                        <li>
+                            <label for="lastname">*Last Name:</label>
+                            <input type="text" id="lastname" name="myLName" required="required" />
+                        </li>
+                        <li>
+                            <label for="email">*E-mail:</label>
+                            <input type="email" id="email" name="myEmail" required="required" />
+                        </li>
+                        <li>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="myPhone" />
+                        </li>
+                        <li>
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" name="myArrival" />
+                        </li>
+                        <li>
+                            <label for="time">Arrival Time:</label>
+                            <input type="time" id="time" name="myTime" />
+                        </li>
+                        <li>
+                            <label for="numnights">Number of Nights:</label>
+                            <input type="number" id="numnights" name="myNights" />
+                        </li>
+                        <li>
+                            <label for="comments">*Comments:</label>
+                            <textarea id="comments" name="myComments" required="required"></textarea>
+                        </li>
+                        <li>
+                            <input type="submit" value="Submit" id="submit" />
+                            <input type="reset" value="Reset Form" id="reset" />
+                        </li>
+                    </ul>
+                </fieldset>
+            </form>
+        </main>
+
+        <div id="contact-tablet">
+            <span class="resort">Atlantic Trails Resort</span> <br>
+            1227 Atlantic Trails Way <br>
+            Cliffside, Maine 04226 <br><br>
+            <a href="tel:888-555-5555">888-555-5555</a> <br>
+        </div>
+
+        <div id="contact-mobile">
+            <span class="resort">Atlantic Trails Resort</span> <br>
+            1227 Atlantic Trails Way <br>
+            Cliffside, Maine 04226 <br><br>
+            <a href="tel:888-555-5555">888-555-5555</a>
+        </div>
+
+        <footer>
+            <div>Copyright &copy; 2019 Atlantic Trails Resort</div>
+            <a href="mailto:mujahid@jaffer.com">mujahid@jaffer.com</a>
+        </footer>
+
+    </div>
+</body>
+</html>
